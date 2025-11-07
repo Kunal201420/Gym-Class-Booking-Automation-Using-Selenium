@@ -8,7 +8,7 @@ import time
 
 # User credentials and URL
 ACCOUNT_EMAIL = "kunal@test.com"  # Change to your email
-ACCOUNT_PASSWORD = "Kunal$201420"        # Change to your password
+ACCOUNT_PASSWORD = "Kunal$password"        # Change to your password
 GYM_URL = "https://appbrewery.github.io/gym/"
 
 # Setup Chrome with persistent session profile and detached browser
@@ -123,3 +123,4 @@ if __name__ == "__main__":
     finally:
         # Do not quit Chrome immediately since detach=True. To close browser, call driver.quit() manually.
         print("Execution completed. Remember to close the browser manually if needed.")
+
